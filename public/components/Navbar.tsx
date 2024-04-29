@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="w-full flex justify-between items-center ">
     <div className="flex items-center gap-[80px]">
-       <button className="w-[200px] h-[50px] rounded-[11px] bg-[blue] text-white">LOGO</button>
+       <button className="w-[150px] h-[50px] rounded-[11px] bg-[blue] text-white">LOGO</button>
        
            <div className="w-[400px] h-[40px] flex items-center gap-4 bg-[#E3F2FD] px-2 rounded">
              <Image src={search} alt="" width={15} height={15}/>

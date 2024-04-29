@@ -7,7 +7,7 @@ import Sidebar from "../../../public/components/Sidebar";
 
 export default function Home() {
   return (
-    <main className="p-4 overflow-y-hidden text-[14px]">
+    <main className="p-4 overflow-hidden text-[14px]">
       <Navbar/>
       <div className="flex items-center gap-[70px] ml-[240px] pb-4">
         <ul className="flex items-center gap-4 ">
