@@ -1,4 +1,4 @@
-import Data from "../../../public/components/Data";
+import Data from "./components/Data";
 
 export default function Booking() {
   return (
@@ -17,7 +17,18 @@ export default function Booking() {
         </div>
       </div>
     </div>
-    <Data/>
+    <div className="m-2">
+      <Data/>
+      <Data/>
+      <Data/>
+      <Data/>
+      <Data/>
+      <Data/>
+      <Data/>
+      <Data/>
+      <Data/>
+    </div>
+   
 
     
     
