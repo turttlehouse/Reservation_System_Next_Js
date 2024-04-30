@@ -8,8 +8,8 @@ export default function Data(){
           <h1 className="text-black ml-[72px]">Ghanashyam</h1>
           <h1 className="text-black">52(Terrace)</h1>
           <h1 className="text-black ml-3">19/03/2024 <br/> 9:00 AM</h1>
-          <h1 className="text-black ml-6">5</h1>
-          <h1 className="text-black ml-[100px]">$1500</h1>
+          <h1 className="text-black ml-14">5</h1>
+          <h1 className="text-black ml-[70px]">$1500</h1>
           <h1 className="text-black ml-[50px]">$1500</h1>
           <h1 className="text-black ml-5 mr-5">Reserved</h1>
         </div>

@@ -1,5 +1,6 @@
 import Data from "../rates/components/Data";
 
+
 export default function Rates(){
   return (
     <>
@@ -11,11 +12,19 @@ export default function Rates(){
         <h1 className="text-white ml-12">Cancellation Policy</h1>
         <h1 className="text-white ml-3">Deal Price</h1>
         <h1 className="text-white ml-8">Rate</h1>
-        <h1 className="text-white ml-8">Availability</h1>
+        <h1 className="text-white ml-8 mr-16">Availability</h1>
         
       </div>
     </div>
   </div>
+  <Data />
+  <Data />
+  <Data />
+  <Data />
+  <Data />
+  <Data />
+  <Data />
+  <Data />
   <Data />
     
     </>
