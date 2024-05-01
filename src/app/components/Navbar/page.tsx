@@ -1,13 +1,13 @@
 import Image from "next/image";
-import search from '../images/search.png'
-import notification from '../images/notification.png'
-import profile from '../images/profile.png'
+import search from '../../../../public/images/search.png'
+import notification from '../../../../public/images/notification.png'
+import profile from '../../../../public/images/profile.png'
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-between items-center ">
+    <div className="w-full flex justify-between items-center p-4">
     <div className="flex items-center gap-[80px]">
-       <button className="p-4 rounded-[11px] bg-[blue] text-white">LOGO</button>
+       <button className="w-[100px] h-[50px] rounded-[11px] bg-[blue] text-white">LOGO</button>
        
            <div className="w-[400px] h-[40px] flex items-center gap-4 bg-[#E3F2FD] px-2 rounded">
              <Image src={search} alt="" width={15} height={15}/>

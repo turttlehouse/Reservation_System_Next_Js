@@ -1,16 +1,16 @@
 import Image from "next/image";
-import home from '../images/home.png'
-import front from '../images/front.png'
-import bookings from '../images/bookings.png'
-import tables from '../images/tables.png'
-import deals from '../images/deals.png'
-import rates from '../images/rates.png'
-import vendor from '../images/vendor.png'
-import logout from '../images/logout.png'
+import home from '../../../../public/images/home.png'
+import front from '../../../../public/images/front.png'
+import bookings from '../../../../public/images/bookings.png'
+import tables from '../../../../public/images/tables.png'
+import deals from '../../../../public/images/deals.png'
+import rates from '../../../../public/images/rates.png'
+import vendor from '../../../../public/images/vendor.png'
+import logout from '../../../../public/images/logout.png'
 
 const Sidebar = () => {
   return (
-      <div className="w-[200px] h-screen ">
+      <div className="w-[200px] h-[100vh] py-10 px-4">
         <ul className="flex flex-col gap-5 ">
           <li className="flex items-center gap-2 cursor-pointer">
             <Image src={home} alt="dashboard" width={20} height={20}/>

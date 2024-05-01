@@ -1,13 +1,13 @@
 /* Rohan UI codes here  */
 import Image from "next/image";
 import search from '../../../public/images/search.png'
-import notification from '../../../public/images/notification.png'
-import Navbar from "../../../public/components/Navbar";
-import Sidebar from "../../../public/components/Sidebar";
+import Navbar from "../components/Navbar/page";
+import Sidebar from "../components/sidebar/page";
+
 
 export default function Home() {
   return (
-    <main className="p-4 overflow-y-hidden text-[14px]">
+    <main className="p-4 overflow-hidden text-[14px]">
       <Navbar/>
       <div className="flex items-center gap-[70px] ml-[240px] pb-4">
         <ul className="flex items-center gap-4 ">
@@ -29,7 +29,7 @@ export default function Home() {
 
       <div className="flex items-center overflow-hidden ">
         <Sidebar/>
-        <div className="w-full h-screen overflow-y-hidden bg-[#E3F2FD]"></div>
+        <div className="w-full h-screen bg-[#E3F2FD]"></div>
       </div>
     </main>
   );
